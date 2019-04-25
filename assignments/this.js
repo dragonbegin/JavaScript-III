@@ -63,11 +63,11 @@ function someOne(sayHello) {
   };
 }
 
-const juan = new someOne("John");
-const john = new someOne("Juan");
+const juan1 = new someOne("John");
+const john1 = new someOne("Juan");
 
-juan.speak.call(john);
-john.speak.apply(juan);
+juan1.speak.call(john);
+john1.speak.apply(juan);
 
-juan.speak();
-john.speak();
+juan1.speak();
+john1.speak();
